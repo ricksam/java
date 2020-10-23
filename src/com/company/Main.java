@@ -20,7 +20,7 @@ public class Main {
         // Create a neat value object to hold the URL
 
         try {
-            URL url = new URL("https://bluecore-metodo-blobs.azurewebsites.net/api/RequestPermission");
+            URL url = new URL("https://rcksoftware.azurewebsites.net/home/testjson");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestProperty("accept", "application/json");
             connection.setRequestMethod("GET");
